@@ -1,21 +1,21 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { configureAxios } from "./config/axios";
-import "react-toastify/dist/ReactToastify.css";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { configureAxios } from "./config/axios";
+// import "react-toastify/dist/ReactToastify.css";
 
 
-configureAxios();
+// configureAxios();
 
-function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={< />}>
+// function App() {
+//   return (
+//     <BrowserRouter>
+//       <Routes>
+//         <Route path="/" element={< />}>
+//           < Route path="/" element={< />}/ >
+//         </Route>
 
-        </Route>
-    
-      </Routes>
-    </BrowserRouter>
-  );
-}
+//     </Routes>
+//     </BrowserRouter >
+//   );
+// }
 
-export default App;
+// export default App;
